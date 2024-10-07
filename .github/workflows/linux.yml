@@ -38,6 +38,7 @@ jobs:
 
       - name: Install packages
         run: |
+          sudo apt-get install libusb-1.0-0-dev
           sudo add-apt-repository ppa:fpoussin/ppa
           sudo apt install libqt5usb5 libqt5usb5-dev
 
