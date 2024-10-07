@@ -50,7 +50,7 @@ jobs:
           dir: ${{ runner.temp }}
           install-deps: "true"
           aqtversion: '==3.1.*'
-          version: '5.14.1''
+          version: '5.14.1'
           arch: 'gcc_64'
 
       - name: Create build directory
