@@ -55,6 +55,7 @@ jobs:
       - name: Build
         working-directory: ${{ env.SOURCE_DIR }}/build
         run: |
+          ls ${{ env.SOURCE_DIR }}
           qmake -r ${{ env.SOURCE_DIR }}/QtUsb.pro
           make
 
