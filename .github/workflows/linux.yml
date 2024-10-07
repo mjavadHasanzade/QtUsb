@@ -55,7 +55,7 @@ jobs:
       - name: Build
         working-directory: ${{ env.SOURCE_DIR }}/build
         run: |
-          qmake -r ${{ env.SOURCE_DIR }}/QtWidgetOpenGl.pro
+          qmake -r ${{ env.SOURCE_DIR }}/QtUsb.pro
           make
 
       - name: (9) Zip build
